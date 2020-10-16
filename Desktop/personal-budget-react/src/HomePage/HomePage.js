@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Chartjs from '../Chartjs/Chart';
+import D3js from '../D3js/D3';
 
 function HomePage() {
   return (
@@ -26,21 +28,17 @@ function HomePage() {
     
             <article className="text-box">
                 <h1>D3JS Pie Chart</h1>
-                <p>
-                    <div id="d3js_chart"></div>
-                </p>
+     
+                    <D3js/>
+          
             </article>
     
             <article className="text-box">
                 <h1>Chart</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                    
+                 <Chartjs/>
                 </p>
             </article>
-
-
-            
 
         </div>
 
